@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NWOKOLO UGO CHUKS\\source\\repos\\Application\\Code360.Infrastructure\\Code360.Infrastructure.csproj": {}
+    "C:\\Users\\Adeniyi Mary A\\Desktop\\Application\\Code360.Infrastructure\\Code360.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NWOKOLO UGO CHUKS\\source\\repos\\Application\\Code360.Infrastructure\\Code360.Infrastructure.csproj": {
+    "C:\\Users\\Adeniyi Mary A\\Desktop\\Application\\Code360.Infrastructure\\Code360.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NWOKOLO UGO CHUKS\\source\\repos\\Application\\Code360.Infrastructure\\Code360.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Adeniyi Mary A\\Desktop\\Application\\Code360.Infrastructure\\Code360.Infrastructure.csproj",
         "projectName": "Code360.Infrastructure",
-        "projectPath": "C:\\Users\\NWOKOLO UGO CHUKS\\source\\repos\\Application\\Code360.Infrastructure\\Code360.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\NWOKOLO UGO CHUKS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NWOKOLO UGO CHUKS\\source\\repos\\Application\\Code360.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Adeniyi Mary A\\Desktop\\Application\\Code360.Infrastructure\\Code360.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Adeniyi Mary A\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adeniyi Mary A\\Desktop\\Application\\Code360.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\NWOKOLO UGO CHUKS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Adeniyi Mary A\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -56,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
