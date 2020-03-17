@@ -1978,10 +1978,7 @@
         },
         "runtime": {
           "bin/placeholder/Code360.Data.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "Code360.Entities/1.0.0": {
         "type": "project",
@@ -1994,10 +1991,7 @@
         },
         "runtime": {
           "bin/placeholder/Code360.Entities.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "Code360.Web/1.0.0": {
         "type": "project",
@@ -6628,25 +6622,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\NWOKOLO UGO CHUKS\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Adeniyi Mary A\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NWOKOLO UGO CHUKS\\source\\repos\\Application\\Code360.Services\\Code360.Services.csproj",
+      "projectUniqueName": "C:\\Users\\Adeniyi Mary A\\Desktop\\Application\\Code360.Services\\Code360.Services.csproj",
       "projectName": "Code360.Services",
-      "projectPath": "C:\\Users\\NWOKOLO UGO CHUKS\\source\\repos\\Application\\Code360.Services\\Code360.Services.csproj",
-      "packagesPath": "C:\\Users\\NWOKOLO UGO CHUKS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NWOKOLO UGO CHUKS\\source\\repos\\Application\\Code360.Services\\obj\\",
+      "projectPath": "C:\\Users\\Adeniyi Mary A\\Desktop\\Application\\Code360.Services\\Code360.Services.csproj",
+      "packagesPath": "C:\\Users\\Adeniyi Mary A\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Adeniyi Mary A\\Desktop\\Application\\Code360.Services\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\NWOKOLO UGO CHUKS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Adeniyi Mary A\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -6658,11 +6647,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\NWOKOLO UGO CHUKS\\source\\repos\\Application\\Code360.Data\\Code360.Data.csproj": {
-              "projectPath": "C:\\Users\\NWOKOLO UGO CHUKS\\source\\repos\\Application\\Code360.Data\\Code360.Data.csproj"
+            "C:\\Users\\Adeniyi Mary A\\Desktop\\Application\\Code360.Data\\Code360.Data.csproj": {
+              "projectPath": "C:\\Users\\Adeniyi Mary A\\Desktop\\Application\\Code360.Data\\Code360.Data.csproj"
             },
-            "C:\\Users\\NWOKOLO UGO CHUKS\\source\\repos\\Application\\Code360.Entities\\Code360.Entities.csproj": {
-              "projectPath": "C:\\Users\\NWOKOLO UGO CHUKS\\source\\repos\\Application\\Code360.Entities\\Code360.Entities.csproj"
+            "C:\\Users\\Adeniyi Mary A\\Desktop\\Application\\Code360.Entities\\Code360.Entities.csproj": {
+              "projectPath": "C:\\Users\\Adeniyi Mary A\\Desktop\\Application\\Code360.Entities\\Code360.Entities.csproj"
             }
           }
         }
@@ -6693,7 +6682,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
