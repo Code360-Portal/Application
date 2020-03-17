@@ -8,5 +8,6 @@ namespace Code360.Services.Interface
   public  interface IStudentRepository
   {
       Student UpdateStudent(Student studentChanges);
+
   }
 }
