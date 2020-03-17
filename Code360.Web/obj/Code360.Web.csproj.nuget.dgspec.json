@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ogbaragodwin/Desktop/code360/peter/Code360.Web/Code360.Web.csproj": {}
+    "C:\\Users\\SURFACE\\Desktop\\Project\\Application\\Code360.Web\\Code360.Web.csproj": {}
   },
   "projects": {
-    "/Users/ogbaragodwin/Desktop/code360/peter/Code360.Web/Code360.Web.csproj": {
+    "C:\\Users\\SURFACE\\Desktop\\Project\\Application\\Code360.Web\\Code360.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ogbaragodwin/Desktop/code360/peter/Code360.Web/Code360.Web.csproj",
+        "projectUniqueName": "C:\\Users\\SURFACE\\Desktop\\Project\\Application\\Code360.Web\\Code360.Web.csproj",
         "projectName": "Code360.Web",
-        "projectPath": "/Users/ogbaragodwin/Desktop/code360/peter/Code360.Web/Code360.Web.csproj",
-        "packagesPath": "/Users/ogbaragodwin/.nuget/packages/",
-        "outputPath": "/Users/ogbaragodwin/Desktop/code360/peter/Code360.Web/obj/",
+        "projectPath": "C:\\Users\\SURFACE\\Desktop\\Project\\Application\\Code360.Web\\Code360.Web.csproj",
+        "packagesPath": "C:\\Users\\SURFACE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SURFACE\\Desktop\\Project\\Application\\Code360.Web\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/ogbaragodwin/.config/NuGet/NuGet.Config"
+          "C:\\Users\\SURFACE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
