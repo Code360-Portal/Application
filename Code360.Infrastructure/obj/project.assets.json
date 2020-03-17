@@ -8,25 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\SURFACE\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\NWOKOLO UGO CHUKS\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SURFACE\\Desktop\\Project\\Application\\Code360.Infrastructure\\Code360.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\NWOKOLO UGO CHUKS\\source\\repos\\Application\\Code360.Infrastructure\\Code360.Infrastructure.csproj",
       "projectName": "Code360.Infrastructure",
-      "projectPath": "C:\\Users\\SURFACE\\Desktop\\Project\\Application\\Code360.Infrastructure\\Code360.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\SURFACE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SURFACE\\Desktop\\Project\\Application\\Code360.Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\NWOKOLO UGO CHUKS\\source\\repos\\Application\\Code360.Infrastructure\\Code360.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\NWOKOLO UGO CHUKS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\NWOKOLO UGO CHUKS\\source\\repos\\Application\\Code360.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\SURFACE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\NWOKOLO UGO CHUKS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

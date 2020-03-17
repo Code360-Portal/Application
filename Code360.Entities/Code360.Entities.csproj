@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Code360.Web\Code360.Web.csproj" />
+  </ItemGroup>
+
 </Project>
