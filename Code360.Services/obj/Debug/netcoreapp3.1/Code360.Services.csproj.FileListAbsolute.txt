@@ -6,3 +6,6 @@ C:\Users\peter\source\repos\Code360.Entities\Code360.Services\obj\Debug\netcorea
 C:\Users\peter\source\repos\Code360.Entities\Code360.Services\obj\Debug\netcoreapp3.1\Code360.Services.AssemblyInfo.cs
 C:\Users\peter\source\repos\Code360.Entities\Code360.Services\obj\Debug\netcoreapp3.1\Code360.Services.dll
 C:\Users\peter\source\repos\Code360.Entities\Code360.Services\obj\Debug\netcoreapp3.1\Code360.Services.pdb
+C:\Users\Shopinverse.com\source\repos\Application\Code360.Services\obj\Debug\netcoreapp3.1\Code360.Services.csprojAssemblyReference.cache
+C:\Users\Shopinverse.com\source\repos\Application\Code360.Services\obj\Debug\netcoreapp3.1\Code360.Services.AssemblyInfoInputs.cache
+C:\Users\Shopinverse.com\source\repos\Application\Code360.Services\obj\Debug\netcoreapp3.1\Code360.Services.AssemblyInfo.cs

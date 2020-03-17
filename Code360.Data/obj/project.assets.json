@@ -2026,7 +2026,10 @@
         },
         "runtime": {
           "bin/placeholder/Code360.Entities.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Code360.Web/1.0.0": {
         "type": "project",
@@ -6776,20 +6779,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Adeniyi Mary A\\.nuget\\packages\\": {}
+    "C:\\Users\\Shopinverse.com\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adeniyi Mary A\\Desktop\\Application\\Code360.Data\\Code360.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Shopinverse.com\\source\\repos\\Application\\Code360.Data\\Code360.Data.csproj",
       "projectName": "Code360.Data",
-      "projectPath": "C:\\Users\\Adeniyi Mary A\\Desktop\\Application\\Code360.Data\\Code360.Data.csproj",
-      "packagesPath": "C:\\Users\\Adeniyi Mary A\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Adeniyi Mary A\\Desktop\\Application\\Code360.Data\\obj\\",
+      "projectPath": "C:\\Users\\Shopinverse.com\\source\\repos\\Application\\Code360.Data\\Code360.Data.csproj",
+      "packagesPath": "C:\\Users\\Shopinverse.com\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Shopinverse.com\\source\\repos\\Application\\Code360.Data\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Adeniyi Mary A\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Shopinverse.com\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -6801,8 +6809,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Adeniyi Mary A\\Desktop\\Application\\Code360.Entities\\Code360.Entities.csproj": {
-              "projectPath": "C:\\Users\\Adeniyi Mary A\\Desktop\\Application\\Code360.Entities\\Code360.Entities.csproj"
+            "C:\\Users\\Shopinverse.com\\source\\repos\\Application\\Code360.Entities\\Code360.Entities.csproj": {
+              "projectPath": "C:\\Users\\Shopinverse.com\\source\\repos\\Application\\Code360.Entities\\Code360.Entities.csproj"
             }
           }
         }

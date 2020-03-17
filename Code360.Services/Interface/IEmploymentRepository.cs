@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Code360.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 

@@ -6067,20 +6067,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Adeniyi Mary A\\.nuget\\packages\\": {}
+    "C:\\Users\\Shopinverse.com\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adeniyi Mary A\\Desktop\\Application\\Code360.Web\\Code360.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Shopinverse.com\\source\\repos\\Application\\Code360.Web\\Code360.Web.csproj",
       "projectName": "Code360.Web",
-      "projectPath": "C:\\Users\\Adeniyi Mary A\\Desktop\\Application\\Code360.Web\\Code360.Web.csproj",
-      "packagesPath": "C:\\Users\\Adeniyi Mary A\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Adeniyi Mary A\\Desktop\\Application\\Code360.Web\\obj\\",
+      "projectPath": "C:\\Users\\Shopinverse.com\\source\\repos\\Application\\Code360.Web\\Code360.Web.csproj",
+      "packagesPath": "C:\\Users\\Shopinverse.com\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Shopinverse.com\\source\\repos\\Application\\Code360.Web\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Adeniyi Mary A\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Shopinverse.com\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
