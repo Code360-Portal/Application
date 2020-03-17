@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Code360.Data\Code360.Data.csproj" />
+    <ProjectReference Include="..\Code360.Entities\Code360.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

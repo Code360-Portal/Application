@@ -7,6 +7,6 @@ namespace Code360.Services.Interface
 {
   public  interface IStudentRepository
     {
-      Student  AddStudent(Student student)
+        Student AddStudent(Student student);
     }
 }

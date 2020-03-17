@@ -1,0 +1,97 @@
+﻿@model StudentViewModel
+
+
+<div class="panel-body">
+    <form asp-controller="Student" asp-action="Update" method="post">
+        <input asp-for="Id" type="hidden" />
+        <div class="row card card-body">
+            <div class="col-md-6">
+                <label style="margin: 0 0 0 0" asp-for="FirstName" disabled></label>
+                <input class="form-control" type="text" placeholder="Enter Your Full Name." asp-for="FirstName" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label style="margin: 0 0 0 0" asp-for="LastName"></label>
+                <input class="form-control" type="text" placeholder="Enter Your Full Name." asp-for="LastName" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label style="margin: 10px 0 0 0" asp-for="OtherNames"></label>
+                <input class="form-control" type="text" placeholder="Enter Your Full Name." asp-for="OtherNames" />
+                <span asp-validation-for="OtherNames" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label style="margin: 10px 0 0 0" asp-for="Gender"></label>
+                <select class="form-control" asp-for="Gender" asp-items="Html.GetEnumSelectList<Gender>()"></select>
+            </div>
+
+            <div class="col-md-6">
+                <label style="margin: 10px 0 0 0" asp-for="Email"></label>
+                <input class="form-control" type="email" placeholder="Enter Your Email" asp-for="Email" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label style="margin: 10px 0 0 0" asp-for="DateOfBirth"></label>
+                <input class="form-control" type="date" asp-for="DateOfBirth" />
+            </div>
+
+            <div class="col-md-6">
+                <label style="margin: 10px 0 0 0" asp-for="Address"></label>
+                <input class="form-control" type="text" placeholder="Please enter a valid address" asp-for="Address" />
+            </div>
+
+            <div class="col-md-6">
+                <label style="margin: 10px 0 0 0" asp-for="Nationality"></label>
+                <select class="form-control" asp-for="Nationality" asp-items="Html.GetEnumSelectList<nationality>()"></select>
+            </div>
+
+            <div class="col-md-6">
+                <label style="margin: 10px 0 0 0" asp-for="PhoneNumber"></label>
+                <input class="form-control" type="tel" placeholder="Enter your phone number" asp-for="PhoneNumber" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+        </div>
+
+        <br />
+        <hr />
+        <h5 class="text-info">Next of Kin Information</h5>
+        <hr />
+
+        <div class="row card card-body">
+
+            <div class="col-md-5">
+                <label style="margin: 10px 0 0 0" asp-for="NextOfKinName"></label>
+                <input class="form-control" type="text" placeholder="Enter your ID card number" asp-for="NextOfKinName" />
+                <span asp-validation-for="NextOfKinName" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-5">
+                <label style="margin: 10px 0 0 0" asp-for="NextofKinEmail"></label>
+                <input class="form-control" asp-for="NextofKinEmail" />
+                <span asp-validation-for="NextofKinEmail" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-5">
+                <label style="margin: 10px 0 0 0" asp-for="NextOfKinPhoneNumber"></label>
+                <input class="form-control" type="text" placeholder="Tell us about about your health status " asp-for="NextOfKinPhoneNumber" />
+                <span asp-validation-for="NextOfKinPhoneNumber" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-5">
+                <label style="margin: 10px 0 0 0" asp-for="NextOfKinMaritalStatus"></label>
+                <select class="form-control" asp-for="NextOfKinMaritalStatus" asp-items="Html.GetEnumSelectList<MaritalStatus>()"></select>
+            </div>
+
+        </div>
+
+        <div class="row ">
+            <div class="col-md-3">
+                <input class="btn btn-success" type="submit" value="update" style="margin: 10px 0 0 0; width: 120px" />
+            </div>
+        </div>
+    </form>
+</div>
