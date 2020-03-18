@@ -1,0 +1,104 @@
+﻿@model List<UserRoleViewModel>
+
+@{
+    var roleId = ViewBag.roleId;
+}
+
+
+
+
+<header id="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <h1> <span class="fa fa-cog"></span> Dashboard <small>Edit Role</small></h1>
+            </div>
+            <div class="col-md-2">
+                <div class="dropdown create">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Role
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Add Pages</a>
+                        <a class="dropdown-item" href="#">Add Post</a>
+                        <a class="dropdown-item" href="#">Add Employee</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="breacrumb">
+    <div class="container">
+        <ol class="breadcrumb">
+            <li><a href="index.html"> Dashboard</a> / </li>
+            <li> Employee / </li>
+            <li class="active"> Role</li>
+        </ol>
+    </div>
+</section>
+
+<section id="main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="list-group">
+                    <a href="index.html" class="list-group-item list-group-item-action active main-color-bg">
+                        <i class="fa fa-cog"></i> Dashboard
+                    </a>
+                    <a href="pages.html" class="list-group-item list-group-item-action"> <i class="fa fa-book"></i> Pages <span class="badge badge-primary badge-pill">3</span></a>
+                    <a href="users.html" class="list-group-item list-group-item-action"><i class="fa fa-user-circle" aria-hidden="true"></i> Users <span class="badge badge-primary badge-pill">14</span></a>
+                    <a href="posts.html" class="list-group-item list-group-item-action"><i class="fa fa-pencil"></i> Posts <span class="badge badge-primary badge-pill">20</span></a>
+
+                </div>
+
+                <div class="card card-body mt-3">
+                    <h4>Disk Space Used</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                    </div>
+                </div>
+                <div class="card card-body">
+                    <h4>Bandwidth Used</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">45%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="panel panel-default">
+                    <div class="panel-heading main-color-bg">
+                        <h3 class="parnel-title p-4">Edit Employee</h3>
+                    </div>
+                    <div class="panel-body">
+                        <form method="post">
+                        <div class="card card-body">
+                            <h3 class="text-center">Add or Remove user from this role</h3>
+
+                            @for(int i=0; i<Model.Count; i++)
+                            {
+                        <div class="form-check m-1">
+                            <input type="hidden" asp-for="@Model[i].UserId" />
+                            <input type="hidden" asp-for="@Model[i].UserName" />
+                            <input asp-for="@Model[i].IsSelected" class="form-check-input" />
+                            <label asp-for="@Model[i].IsSelected" class="form-check-label">
+                                @Model[i].UserName
+                            </label>
+
+                            <p>@roleId</p>
+                        </div>
+                            }
+                        <hr />
+
+                        <button type="submit" class="btn btn-success">Update</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+

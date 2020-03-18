@@ -1,4 +1,4 @@
-﻿using Code360.Data;
+﻿//using Code360.Data;
 using Code360.Entities;
 using Code360.Services.Interface;
 using System;
@@ -10,9 +10,9 @@ namespace Code360.Services.Repository
 {
     public class PaymentRepository : IPaymentRepository
     {
-        private readonly Code360DBContext _db;
+        private readonly AcademyDbContext _db;
 
-        public PaymentRepository(Code360DBContext code360DBContext)
+        public PaymentRepository(AcademyDbContext code360DBContext)
         {
             _db = code360DBContext;
         }

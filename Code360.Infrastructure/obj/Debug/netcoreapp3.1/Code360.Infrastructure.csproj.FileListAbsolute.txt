@@ -14,3 +14,12 @@ C:\Users\Shopinverse.com\source\repos\Application\Code360.Infrastructure\obj\Deb
 C:\Users\Shopinverse.com\source\repos\Application\Code360.Infrastructure\obj\Debug\netcoreapp3.1\Code360.Infrastructure.AssemblyInfo.cs
 C:\Users\Shopinverse.com\source\repos\Application\Code360.Infrastructure\obj\Debug\netcoreapp3.1\Code360.Infrastructure.dll
 C:\Users\Shopinverse.com\source\repos\Application\Code360.Infrastructure\obj\Debug\netcoreapp3.1\Code360.Infrastructure.pdb
+C:\CSharpWebProjects\GitCode360\Application\Code360.Infrastructure\bin\Debug\netcoreapp3.1\Code360.Infrastructure.deps.json
+C:\CSharpWebProjects\GitCode360\Application\Code360.Infrastructure\bin\Debug\netcoreapp3.1\Code360.Infrastructure.dll
+C:\CSharpWebProjects\GitCode360\Application\Code360.Infrastructure\bin\Debug\netcoreapp3.1\Code360.Infrastructure.pdb
+C:\CSharpWebProjects\GitCode360\Application\Code360.Infrastructure\obj\Debug\netcoreapp3.1\Code360.Infrastructure.AssemblyInfoInputs.cache
+C:\CSharpWebProjects\GitCode360\Application\Code360.Infrastructure\obj\Debug\netcoreapp3.1\Code360.Infrastructure.AssemblyInfo.cs
+C:\CSharpWebProjects\GitCode360\Application\Code360.Infrastructure\obj\Debug\netcoreapp3.1\Code360.Infrastructure.dll
+C:\CSharpWebProjects\GitCode360\Application\Code360.Infrastructure\obj\Debug\netcoreapp3.1\Code360.Infrastructure.pdb
+C:\CSharpWebProjects\GitCode360\Application\Code360.Infrastructure\bin\Debug\netcoreapp3.1\Code360.Infrastructure.runtimeconfig.json
+C:\CSharpWebProjects\GitCode360\Application\Code360.Infrastructure\bin\Debug\netcoreapp3.1\Code360.Infrastructure.runtimeconfig.dev.json

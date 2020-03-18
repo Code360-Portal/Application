@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shopinverse.com\\source\\repos\\Application\\Code360.Web\\Code360.Web.csproj": {}
+    "C:\\CSharpWebProjects\\GitCode360\\Application\\Code360.Web\\Code360.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shopinverse.com\\source\\repos\\Application\\Code360.Web\\Code360.Web.csproj": {
+    "C:\\CSharpWebProjects\\GitCode360\\Application\\Code360.Entities\\Code360.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shopinverse.com\\source\\repos\\Application\\Code360.Web\\Code360.Web.csproj",
-        "projectName": "Code360.Web",
-        "projectPath": "C:\\Users\\Shopinverse.com\\source\\repos\\Application\\Code360.Web\\Code360.Web.csproj",
-        "packagesPath": "C:\\Users\\Shopinverse.com\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shopinverse.com\\source\\repos\\Application\\Code360.Web\\obj\\",
+        "projectUniqueName": "C:\\CSharpWebProjects\\GitCode360\\Application\\Code360.Entities\\Code360.Entities.csproj",
+        "projectName": "Code360.Entities",
+        "projectPath": "C:\\CSharpWebProjects\\GitCode360\\Application\\Code360.Entities\\Code360.Entities.csproj",
+        "packagesPath": "C:\\Users\\KINGWISDOM\\.nuget\\packages\\",
+        "outputPath": "C:\\CSharpWebProjects\\GitCode360\\Application\\Code360.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Shopinverse.com\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\KINGWISDOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -25,7 +25,6 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,6 +41,123 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\CSharpWebProjects\\GitCode360\\Application\\Code360.Web\\Code360.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CSharpWebProjects\\GitCode360\\Application\\Code360.Web\\Code360.Web.csproj",
+        "projectName": "Code360.Web",
+        "projectPath": "C:\\CSharpWebProjects\\GitCode360\\Application\\Code360.Web\\Code360.Web.csproj",
+        "packagesPath": "C:\\Users\\KINGWISDOM\\.nuget\\packages\\",
+        "outputPath": "C:\\CSharpWebProjects\\GitCode360\\Application\\Code360.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\KINGWISDOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\CSharpWebProjects\\GitCode360\\Application\\Code360.Entities\\Code360.Entities.csproj": {
+                "projectPath": "C:\\CSharpWebProjects\\GitCode360\\Application\\Code360.Entities\\Code360.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.1, )"
@@ -65,7 +181,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
