@@ -1,28 +1,7 @@
 body {
     background: #f4f4f4;
 }
-.notshow{
-    display: none;
-}
-.guarantor-div{
-    border-bottom: 1px solid red;
-    padding: 7px;
-}
-/*LANDING PAGE**/
-.myBtn {
-    padding: 10px;
-    color: white;
-    background: firebrick !important;
-    font-weight: bold;
-    width: 35%;
-    margin-top: -3%;
-    border-style: none;
-}
-.themeText {
-    font-family: Gadugi;
-    font-size: 80px;
-        
-}
+
 .body{
     background: #ffffff !important;
 }
@@ -53,8 +32,8 @@ body {
 }
 
 .navbar, .navbar li {
-    background-color: #e74c3c;
-    border-color: #c0392b;
+    background-color: #ffc107;
+    border-color: #13042d;
     color: #ffffff !important;
 }
 .navbar .navbar-brand {
@@ -114,18 +93,18 @@ body {
 }
 
 /* custom */
-.main-color-bg{
-	background-color: #e74c3c !important;
-	border-color: #c0392b !important;
-	color: #ffffff !important;
+.main-color-bg {
+    background-color: #ffc107 !important;
+    border-color: #13042d! important;
+    color: #ffffff !important;
 }
 
 /* Header */
-#header{
-	background-color: #333333;
-	color: #ffffff;
-	padding-bottom: 10px;
-	margin-bottom: 15px;
+#header {
+    background-color: #13042d;
+    color: #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 #header .create{
@@ -141,6 +120,9 @@ body {
 	color: #333333;
 }
 
+section{
+    width: 100%;
+}
 /* Progress Bar */
 .progress-bar{
 	background-color: #333333;
@@ -155,15 +137,18 @@ body {
 	margin-top: 30px;
 }
 /* footer */
-#footer{
-	background: #333333;
-	color: #ffffff;
-	text-align: center;
-	padding: 30px;
-	margin-top: 30px;
+#footer {
+    background: #13042d;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
 }
 
-
+.btn-code360 {
+    background: #13042d !important;
+    color:white;
+}
 
 
 

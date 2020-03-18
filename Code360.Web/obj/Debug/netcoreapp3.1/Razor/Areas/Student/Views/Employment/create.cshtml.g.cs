@@ -41,7 +41,7 @@ using Code360.Web.Areas.Student.ViewModels;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b4b0cf5061129ed505eefba0c3d088427f746a8a", @"/Areas/Student/Views/Employment/create.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6ad0209b88204fa85594a03c17fd40b82773cba1", @"/Areas/Student/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d7d0807a65c25f9017b2adf266d1f4e273d3ce49", @"/Areas/Student/Views/_ViewImports.cshtml")]
     public class Areas_Student_Views_Employment_create : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Code360.Web.Areas.Student.ViewModels.EmploymentViewModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("text-danger"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);

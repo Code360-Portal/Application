@@ -1,13 +1,16 @@
 ﻿@model StudentViewModel
 
-@{ 
+@{
     ViewBag.Page = "Student";
 }
 
-<div class="panel-body">
-    <form asp-controller="Student" asp-action="Update" method="post">
+<div class="panel panel-default">
+    <div class="panel panel-heading main-color-bg">
+        <h3 class="panel-title">Update your profile</h3>
+    </div>
+    <form asp-controller="Student" asp-action="Update" method="post" class="panel-body p-5">
         <input asp-for="Id" type="hidden" />
-        <div class="row card card-body">
+        <div class="row">
             <div class="col-md-6">
                 <label style="margin: 0 0 0 0" asp-for="FirstName" disabled></label>
                 <input class="form-control" type="text" placeholder="Enter Your Full Name." asp-for="FirstName" />
@@ -61,10 +64,10 @@
 
         <br />
         <hr />
-        <h5 class="text-info">Next of Kin Information</h5>
+        <h4 class="text-primary">Next of Kin Information</h4>
         <hr />
 
-        <div class="row card card-body">
+        <div class="row">
 
             <div class="col-md-5">
                 <label style="margin: 10px 0 0 0" asp-for="NextOfKinName"></label>
@@ -93,7 +96,7 @@
 
         <div class="row ">
             <div class="col-md-3">
-                <input class="btn btn-success" type="submit" value="update" style="margin: 10px 0 0 0; width: 120px" />
+                <input class="btn btn-code360" type="submit" value="update" style="margin: 10px 0 0 0; width: 120px" />
             </div>
         </div>
     </form>

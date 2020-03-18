@@ -41,7 +41,7 @@ using Code360.Web.Areas.Student.ViewModels;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1cb8ef9fef1143dc4e08eb9c3d450ef40c1f08d3", @"/Areas/Student/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6ad0209b88204fa85594a03c17fd40b82773cba1", @"/Areas/Student/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d7d0807a65c25f9017b2adf266d1f4e273d3ce49", @"/Areas/Student/Views/_ViewImports.cshtml")]
     public class Areas_Student_Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

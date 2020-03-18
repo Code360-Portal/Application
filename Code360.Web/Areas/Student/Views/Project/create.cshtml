@@ -1,0 +1,70 @@
+﻿@model Code360.Web.Areas.Student.ViewModels.ProjectViewModel
+
+@{
+    ViewBag.Page = "Project";
+}
+
+
+<div class="row panel panel-default">
+    <div class="panel panel-heading main-color-bg">
+        <h3 class="panel-title">Add A Project</h3>
+    </div>
+    <div class="col-md-12">
+        <form asp-action="create" asp-controller="project" class="panel panel-body" enctype="multipart/form-data">
+            <div class="col-md-6">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                @*<div class="form-group">
+                    <label asp-for="Id" class="control-label"></label>
+                    <input asp-for="Id" class="form-control" />
+                    <span asp-validation-for="Id" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="StudentId" class="control-label"></label>
+                    <input asp-for="StudentId" class="form-control" />
+                    <span asp-validation-for="StudentId" class="text-danger"></span>
+                </div>*@
+                <input asp-for="StudentId" class="form-control" type="hidden" />
+
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Url" class="control-label"></label>
+                    <input asp-for="Url" class="form-control" />
+                    <span asp-validation-for="Url" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label"></label>
+                    @*<input asp-for="Description" class="form-control" />*@
+                    <textarea asp-for="Description" class="form-control"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-default" />
+                </div>
+            </div>
+            <div class="col-md-6 custom-file">
+                <label asp-for="image" class="control-label cutom-file-label"></label>
+                <input asp-for="image" class="form-control custome-file-input"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}\
+    <script>
+        $(document).ready(function () {
+                        $('.custom-file-input').on("change", function () {
+                            var filename = $(this).val().split("\\").pop();
+                            $(this).next('.custom-file-label').html(filename);
+                        });
+                    });
+    </script>
+}

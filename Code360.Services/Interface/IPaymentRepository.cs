@@ -2,13 +2,14 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Code360.Services.Interface
 {
     public interface IPaymentRepository
     {
-        PaymentHistory AddPayment(PaymentHistory payment);
+        Task<PaymentHistory> AddPayment(PaymentHistory payment);
         IEnumerable<PaymentHistory> ViewHistory();
-        Payment ViewBalance();
+        Payment ViewBalance(int? id);
     }
 }

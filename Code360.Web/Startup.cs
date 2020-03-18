@@ -44,8 +44,21 @@ namespace Code360.Web
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
-            app.UseRouting();
+            // app.UseMvc(routes =>
+            //{
+            //    routes.MapRoute(
+            //        name: "areas",
+            //        template: "{area:exists}/{controller=Student}/{action=Index}"
+            //        );
+            //    routes.MapRoute(
+            //        name: "default",
+            //        template: "{controller=Home}/{action=Index}/{id}"
+            //        );
+            //});
+
             app.UseMvc();
+            app.UseRouting();
+
 
             app.UseAuthorization();
 

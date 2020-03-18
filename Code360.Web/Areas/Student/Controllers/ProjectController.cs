@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Code360.Web.Areas.Student.Controllers
 {
+    [Area("Student")]
+    [Route("Project")]
     public class ProjectController : Controller
     {
         // GET: /<controller>/
@@ -17,6 +19,7 @@ namespace Code360.Web.Areas.Student.Controllers
             return View();
         }
 
+        [Route("create")]
         [HttpGet]
         public IActionResult create()
         {

@@ -444,3 +444,5 @@ C:\Users\Shopinverse.com\source\repos\Application\Code360.Web\obj\Debug\netcorea
 C:\Users\Shopinverse.com\source\repos\Application\Code360.Web\obj\Debug\netcoreapp3.1\Code360.Web.pdb
 C:\Users\Shopinverse.com\source\repos\Application\Code360.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Student\Views\Employment\create.cshtml.g.cs
 C:\Users\Shopinverse.com\source\repos\Application\Code360.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Student\Views\Shared\dashboardLayout.cshtml.g.cs
+C:\Users\Shopinverse.com\source\repos\Application\Code360.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Student\Views\Project\create.cshtml.g.cs
+C:\Users\Shopinverse.com\source\repos\Application\Code360.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Student\Views\Student\Index.cshtml.g.cs

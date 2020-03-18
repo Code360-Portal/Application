@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Code360.Web.Areas.Student.Controllers
 {
+    [Area("Student")]
+    [Route("Student")]
     public class StudentController : Controller
     {
         public IActionResult Index()
@@ -14,6 +16,7 @@ namespace Code360.Web.Areas.Student.Controllers
         }
 
         [HttpGet]
+        [Route("update")]
         public IActionResult Update()
         {
             return View();
