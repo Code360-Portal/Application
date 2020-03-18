@@ -8,8 +8,8 @@ namespace Code360.Entities
 {
   public  class Student
     {
-        [Key]
-        public Guid Id { get; set; }
+        
+        public Guid StudentId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string OtherNames { get; set; }

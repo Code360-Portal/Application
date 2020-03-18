@@ -23,3 +23,13 @@ C:\Users\Shopinverse.com\source\repos\Application\Code360.Entities\obj\Debug\net
 C:\Users\Shopinverse.com\source\repos\Application\Code360.Entities\obj\Debug\netcoreapp3.1\Code360.Entities.csproj.CopyComplete
 C:\Users\Shopinverse.com\source\repos\Application\Code360.Entities\obj\Debug\netcoreapp3.1\Code360.Entities.dll
 C:\Users\Shopinverse.com\source\repos\Application\Code360.Entities\obj\Debug\netcoreapp3.1\Code360.Entities.pdb
+C:\CSharpWebProjects\GitCode360\Application\Code360.Entities\bin\Debug\netcoreapp3.1\Code360.Entities.deps.json
+C:\CSharpWebProjects\GitCode360\Application\Code360.Entities\bin\Debug\netcoreapp3.1\Code360.Entities.dll
+C:\CSharpWebProjects\GitCode360\Application\Code360.Entities\bin\Debug\netcoreapp3.1\Code360.Entities.pdb
+C:\CSharpWebProjects\GitCode360\Application\Code360.Entities\obj\Debug\netcoreapp3.1\Code360.Entities.AssemblyInfoInputs.cache
+C:\CSharpWebProjects\GitCode360\Application\Code360.Entities\obj\Debug\netcoreapp3.1\Code360.Entities.AssemblyInfo.cs
+C:\CSharpWebProjects\GitCode360\Application\Code360.Entities\obj\Debug\netcoreapp3.1\Code360.Entities.dll
+C:\CSharpWebProjects\GitCode360\Application\Code360.Entities\obj\Debug\netcoreapp3.1\Code360.Entities.pdb
+C:\CSharpWebProjects\GitCode360\Application\Code360.Entities\bin\Debug\netcoreapp3.1\Code360.Entities.runtimeconfig.json
+C:\CSharpWebProjects\GitCode360\Application\Code360.Entities\bin\Debug\netcoreapp3.1\Code360.Entities.runtimeconfig.dev.json
+C:\CSharpWebProjects\GitCode360\Application\Code360.Entities\obj\Debug\netcoreapp3.1\Code360.Entities.csprojAssemblyReference.cache
