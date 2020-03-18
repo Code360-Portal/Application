@@ -23,14 +23,19 @@ namespace Code360.Services.Repository
             return payment;
         }
 
-        public Payment ViewBalance(int? id)
+        public Payment GetProgramCost(int? id)
         {
             return _db.payments.Find(id);
         }
 
-        public IEnumerable<PaymentHistory> ViewHistory()
+        public IEnumerable<PaymentHistory> GetAllPayment()
         {
             return _db.paymentHistories;
+        }
+
+        public PaymentHistory his(int? id)
+        {
+            return _db.paymentHistories.Find(id);
         }
     }
 }

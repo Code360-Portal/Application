@@ -10,6 +10,10 @@ namespace Code360.Web.Areas.Student.Controllers
     [Route("Student")]
     public class StudentController : Controller
     {
+        public StudentController(IPaymentRepository paymentRepository)
+        {
+            
+        }
         public IActionResult Index()
         {
             return View();

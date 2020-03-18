@@ -7,6 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Code360.Data\Code360.Data.csproj" />
     <ProjectReference Include="..\Code360.Entities\Code360.Entities.csproj" />
+    <ProjectReference Include="..\Code360.Web\Code360.Web.csproj" />
   </ItemGroup>
 
 </Project>

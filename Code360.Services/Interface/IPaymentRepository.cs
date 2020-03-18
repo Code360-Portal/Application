@@ -9,7 +9,7 @@ namespace Code360.Services.Interface
     public interface IPaymentRepository
     {
         Task<PaymentHistory> AddPayment(PaymentHistory payment);
-        IEnumerable<PaymentHistory> ViewHistory();
-        Payment ViewBalance(int? id);
+        IEnumerable<PaymentHistory> GetAllPayment();
+        Payment GetProgramCost(int? id);
     }
 }
